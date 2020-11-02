@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/LoginDesign.css">
+    <script>
+        function submit(){
+            var username = document.getElementById("user").value.toString();
+            var password = document.getElementById("pass").value.toString();
+            if(username == "admin" && password == "pass@123"){
+                window.location.href = "Product.html";
+            }else{
+                alert("Invalid credentials");
+            }
+        }        
+        
+    </script>
+</head>
+<header class="taskbar" >
+    <a href="#" id="dashboard">Dashboard</a>
+    <a href="#" id="help">Help</a>
+    <a href="#" id="loginbar">Login</a>
+    <a href="#" id="freeTrial">Start a free trial</a>
+</header>
+<body>
+    <div class="container">
+        <img src="/Resource/Login Resource/Login.png" alt="Login icon" id="loginimage">
+        <h1>Hey, good to see you again!</h1>
+        <h3>Log in to get going</h3>
+        <div class="Login">
+            <input type="text" name="username" id="user" placeholder="USERNAME">
+            <input type="password" name="password" id="pass" placeholder="PASSWORD">
+            <button onclick="submit()">Sign in</button>
+        </div>
+        <div class="options">
+            <a href="#" id="trial">Start a free trial</a>
+            <a href="#" id="forgot">Forgot your password?</a>
+            <a href="#" id="back">Back</a>
+        </div>  
+    </div>
+</body>
+</html>
