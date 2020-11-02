@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish List</title>
+    <link rel="stylesheet" href="/CSS/wishList.css">
+    <script src="/JavaScripts/wishList.js"></script>
+</head>
+<body>
+    <h1>Choose your items to add to your Wish List</h1>
+    <div class="items">
+        <div class="gallery">
+            <div class="images" onclick="updateWishList(0)" >
+                <img src="/Resources/image1.jpg" alt="image">
+                <p id="0">Artwork 1</p>
+            </div>
+            <div class="images" onclick="updateWishList(1)" >
+                <img src="/Resources/image2.jpg" alt="image">
+                <p id="1">Artwork 2</p>
+            </div>
+            <div class="images" onclick="updateWishList(2)" >
+                <img src="/Resources/image3.jpg" alt="image">
+                <p id="2">Artwork 3</p>
+            </div>
+            <div class="images" onclick="updateWishList(3)">
+                <img src="/Resources/image4.jpg" alt="image">
+                <p id="3">Artwork 4</p>
+            </div>
+            <div class="images" onclick="updateWishList(4)">
+                <img src="/Resources/image5.jpg" alt="image">
+                <p id="4">Artwork 5</p>
+            </div>
+        </div>
+    </div>
+    <div class="wishListContainer">
+        <div class="wishList">
+            <h3>Wish List</h3>
+            <div>
+                <p id="list" class="itemName"></p>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

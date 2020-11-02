@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/CSS/CalculatorDesign.css">
+    <script src="/JavaScripts/calculator.js"></script>
+</head>
+<body>
+    <h1>Simple math Simplified!</h1>
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <p id="text">0</p>
+            </div>
+            <div class="buttons">
+                <button onclick="updateDisplay('1')">1</button>
+                <button onclick="updateDisplay('2')">2</button>
+                <button onclick="updateDisplay('3')">3</button>
+                <button onclick="updateDisplay('4')">4</button>
+                <button onclick="updateDisplay('5')">5</button>
+                <button onclick="updateDisplay('6')">6</button>
+                <button onclick="updateDisplay('7')">7</button>
+                <button onclick="updateDisplay('8')">8</button>
+                <button onclick="updateDisplay('9')">9</button>
+                <button onclick="updateDisplay('0')">0</button>
+                <button onclick="updateDisplay('+')">+</button>
+                <button onclick="updateDisplay('-')">-</button>
+                <button onclick="updateDisplay('*')">*</button>
+                <button onclick="updateDisplay('/')">/</button>
+                <button id="answer" onclick="showResult()">=</button>
+                <button id="clearScreen" onclick="clearScreen()">Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
