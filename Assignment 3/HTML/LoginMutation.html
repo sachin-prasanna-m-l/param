@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Mutation</title>
+    <link rel="stylesheet" href="/CSS/MutationsDesign.css">
+    <script src="/JS/Mutation.js"></script>
+</head>
+<body>
+    <h1>Login Mutation</h1>
+    <div class="container">
+        <div class="main">
+            <textarea name="mutation" id="input" cols="100" rows="30" placeholder="Enter your mutation"> </textarea>
+            <button onclick="validateLogin(document.getElementById('input').value.toString())">validate login</button>
+            <button onclick="validatePO(document.getElementById('input').value.toString())">validate PO</button>
+        </div>
+        
+    </div>
+    <p id="output">Your output</p>
+</body>
+</html>

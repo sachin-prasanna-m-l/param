@@ -1,0 +1,43 @@
+body{
+    background-color: #383838;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #38923f;
+}
+.main textarea{
+    border: solid;
+    border-radius: 1rem;
+    border-color: #38923f;
+    padding: 1rem;
+    resize: none;
+    outline: none;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.main{
+    width: 30rem;
+    margin: 2rem;
+}
+button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color:  #38923f;
+    padding: 1rem 2rem ;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
